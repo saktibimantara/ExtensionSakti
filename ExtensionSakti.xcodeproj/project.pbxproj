@@ -11,6 +11,13 @@
 		216B48F928A782B60085C572 /* ExtensionSakti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B48EE28A782B60085C572 /* ExtensionSakti.framework */; };
 		216B48FE28A782B60085C572 /* ExtensionSaktiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B48FD28A782B60085C572 /* ExtensionSaktiTests.swift */; };
 		216B48FF28A782B60085C572 /* ExtensionSakti.h in Headers */ = {isa = PBXBuildFile; fileRef = 216B48F128A782B60085C572 /* ExtensionSakti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216B490F28A782D20085C572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B490E28A782D20085C572 /* AppDelegate.swift */; };
+		216B491128A782D20085C572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B491028A782D20085C572 /* SceneDelegate.swift */; };
+		216B491328A782D20085C572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B491228A782D20085C572 /* ViewController.swift */; };
+		216B491628A782D20085C572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B491428A782D20085C572 /* Main.storyboard */; };
+		216B491928A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 216B491728A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld */; };
+		216B491B28A782D30085C572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216B491A28A782D30085C572 /* Assets.xcassets */; };
+		216B491E28A782D30085C572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B491C28A782D30085C572 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		216B48F228A782B60085C572 /* ExtensionSakti.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ExtensionSakti.docc; sourceTree = "<group>"; };
 		216B48F828A782B60085C572 /* ExtensionSaktiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionSaktiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216B48FD28A782B60085C572 /* ExtensionSaktiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSaktiTests.swift; sourceTree = "<group>"; };
+		216B490C28A782D20085C572 /* ExtensionSaktiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionSaktiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216B490E28A782D20085C572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		216B491028A782D20085C572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		216B491228A782D20085C572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		216B491528A782D20085C572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216B491828A782D20085C572 /* ExtensionSaktiExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExtensionSaktiExample.xcdatamodel; sourceTree = "<group>"; };
+		216B491A28A782D30085C572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		216B491D28A782D30085C572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		216B491F28A782D30085C572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		216B490928A782D20085C572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				216B48F028A782B60085C572 /* ExtensionSakti */,
 				216B48FC28A782B60085C572 /* ExtensionSaktiTests */,
+				216B490D28A782D20085C572 /* ExtensionSaktiExample */,
 				216B48EF28A782B60085C572 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				216B48EE28A782B60085C572 /* ExtensionSakti.framework */,
 				216B48F828A782B60085C572 /* ExtensionSaktiTests.xctest */,
+				216B490C28A782D20085C572 /* ExtensionSaktiExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +108,21 @@
 				216B48FD28A782B60085C572 /* ExtensionSaktiTests.swift */,
 			);
 			path = ExtensionSaktiTests;
+			sourceTree = "<group>";
+		};
+		216B490D28A782D20085C572 /* ExtensionSaktiExample */ = {
+			isa = PBXGroup;
+			children = (
+				216B490E28A782D20085C572 /* AppDelegate.swift */,
+				216B491028A782D20085C572 /* SceneDelegate.swift */,
+				216B491228A782D20085C572 /* ViewController.swift */,
+				216B491428A782D20085C572 /* Main.storyboard */,
+				216B491A28A782D30085C572 /* Assets.xcassets */,
+				216B491C28A782D30085C572 /* LaunchScreen.storyboard */,
+				216B491F28A782D30085C572 /* Info.plist */,
+				216B491728A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld */,
+			);
+			path = ExtensionSaktiExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +175,23 @@
 			productReference = 216B48F828A782B60085C572 /* ExtensionSaktiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		216B490B28A782D20085C572 /* ExtensionSaktiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216B492028A782D30085C572 /* Build configuration list for PBXNativeTarget "ExtensionSaktiExample" */;
+			buildPhases = (
+				216B490828A782D20085C572 /* Sources */,
+				216B490928A782D20085C572 /* Frameworks */,
+				216B490A28A782D20085C572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtensionSaktiExample;
+			productName = ExtensionSaktiExample;
+			productReference = 216B490C28A782D20085C572 /* ExtensionSaktiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +206,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					216B48F728A782B60085C572 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					216B490B28A782D20085C572 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -168,6 +228,7 @@
 			targets = (
 				216B48ED28A782B60085C572 /* ExtensionSakti */,
 				216B48F728A782B60085C572 /* ExtensionSaktiTests */,
+				216B490B28A782D20085C572 /* ExtensionSaktiExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +245,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216B490A28A782D20085C572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216B491E28A782D30085C572 /* LaunchScreen.storyboard in Resources */,
+				216B491B28A782D30085C572 /* Assets.xcassets in Resources */,
+				216B491628A782D20085C572 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +277,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		216B490828A782D20085C572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216B491328A782D20085C572 /* ViewController.swift in Sources */,
+				216B490F28A782D20085C572 /* AppDelegate.swift in Sources */,
+				216B491128A782D20085C572 /* SceneDelegate.swift in Sources */,
+				216B491928A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +297,25 @@
 			targetProxy = 216B48FA28A782B60085C572 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		216B491428A782D20085C572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216B491528A782D20085C572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216B491C28A782D30085C572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216B491D28A782D30085C572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		216B490028A782B60085C572 /* Debug */ = {
@@ -425,6 +526,62 @@
 			};
 			name = Release;
 		};
+		216B492128A782D30085C572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRN2AKGKSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExtensionSaktiExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakti.ExtensionSaktiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216B492228A782D30085C572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRN2AKGKSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExtensionSaktiExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakti.ExtensionSaktiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,7 +612,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		216B492028A782D30085C572 /* Build configuration list for PBXNativeTarget "ExtensionSaktiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216B492128A782D30085C572 /* Debug */,
+				216B492228A782D30085C572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		216B491728A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				216B491828A782D20085C572 /* ExtensionSaktiExample.xcdatamodel */,
+			);
+			currentVersion = 216B491828A782D20085C572 /* ExtensionSaktiExample.xcdatamodel */;
+			path = ExtensionSaktiExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 216B48E528A782B60085C572 /* Project object */;
 }
