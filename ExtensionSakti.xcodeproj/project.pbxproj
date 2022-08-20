@@ -18,6 +18,12 @@
 		216B491928A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 216B491728A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld */; };
 		216B491B28A782D30085C572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216B491A28A782D30085C572 /* Assets.xcassets */; };
 		216B491E28A782D30085C572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B491C28A782D30085C572 /* LaunchScreen.storyboard */; };
+		216B492928A79D810085C572 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B492828A79D810085C572 /* Array.swift */; };
+		216B492B28A79D9F0085C572 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B492A28A79D9F0085C572 /* String.swift */; };
+		216B492F28A79DD10085C572 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B492E28A79DD10085C572 /* UILabel.swift */; };
+		216B493528A79E930085C572 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B493428A79E930085C572 /* ArrayTests.swift */; };
+		216B493728A79F5C0085C572 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B493628A79F5C0085C572 /* StringTests.swift */; };
+		216B493928A7A0D10085C572 /* UILabelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B493828A7A0D10085C572 /* UILabelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		216B491A28A782D30085C572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216B491D28A782D30085C572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216B491F28A782D30085C572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216B492828A79D810085C572 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		216B492A28A79D9F0085C572 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		216B492E28A79DD10085C572 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		216B493428A79E930085C572 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		216B493628A79F5C0085C572 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		216B493828A7A0D10085C572 /* UILabelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 		216B48F028A782B60085C572 /* ExtensionSakti */ = {
 			isa = PBXGroup;
 			children = (
+				216B492728A79D700085C572 /* Collection */,
 				216B48F128A782B60085C572 /* ExtensionSakti.h */,
 				216B48F228A782B60085C572 /* ExtensionSakti.docc */,
 			);
@@ -106,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				216B48FD28A782B60085C572 /* ExtensionSaktiTests.swift */,
+				216B493428A79E930085C572 /* ArrayTests.swift */,
+				216B493628A79F5C0085C572 /* StringTests.swift */,
+				216B493828A7A0D10085C572 /* UILabelTest.swift */,
 			);
 			path = ExtensionSaktiTests;
 			sourceTree = "<group>";
@@ -123,6 +139,16 @@
 				216B491728A782D20085C572 /* ExtensionSaktiExample.xcdatamodeld */,
 			);
 			path = ExtensionSaktiExample;
+			sourceTree = "<group>";
+		};
+		216B492728A79D700085C572 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				216B492828A79D810085C572 /* Array.swift */,
+				216B492A28A79D9F0085C572 /* String.swift */,
+				216B492E28A79DD10085C572 /* UILabel.swift */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216B492928A79D810085C572 /* Array.swift in Sources */,
+				216B492B28A79D9F0085C572 /* String.swift in Sources */,
+				216B492F28A79DD10085C572 /* UILabel.swift in Sources */,
 				216B48F328A782B60085C572 /* ExtensionSakti.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				216B48FE28A782B60085C572 /* ExtensionSaktiTests.swift in Sources */,
+				216B493728A79F5C0085C572 /* StringTests.swift in Sources */,
+				216B493928A7A0D10085C572 /* UILabelTest.swift in Sources */,
+				216B493528A79E930085C572 /* ArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +529,7 @@
 		216B490628A782B60085C572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HRN2AKGKSD;
@@ -513,6 +546,7 @@
 		216B490728A782B60085C572 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HRN2AKGKSD;
