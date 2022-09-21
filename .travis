@@ -1,13 +1,5 @@
-language: objective-c
-
-xcode_project: ExtensionSakti.xcodeproj
-xcode_scheme: ExtensionSakti
+language: swift
 osx_image: xcode13.4
-env:
-  matrix:
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
-
-script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ExtensionSakti.xcodeproj -scheme ExtensionSakti -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
-  
+xcode_project: ExtensionSakti.xcodeproj
+xcode_scheme: ExtensionSaktiTests
+xcode_destination: platform=iOS Simulator,OS=15.5,name=iPhone 12
