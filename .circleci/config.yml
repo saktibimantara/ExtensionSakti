@@ -49,11 +49,11 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build-and-test:
-          filters:
-            tags:
-              only: /.*/
-            branches:
-              ignore: /.*/
+        filters:
+          tags:
+            only: /.*/
+          branches:
+            ignore: /.*/
       - deploy-to-cocoapods:
           requires:
             - build-and-test
