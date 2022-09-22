@@ -1,2 +1,4 @@
 *.html
 *.junit
+fastlane/report.xml
+fastlane/README.md
