@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2155F9ED28DCAFFC009AC9FB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2155F9EC28DCAFFC009AC9FB /* UIButton.swift */; };
 		216B48F328A782B60085C572 /* ExtensionSakti.docc in Sources */ = {isa = PBXBuildFile; fileRef = 216B48F228A782B60085C572 /* ExtensionSakti.docc */; };
 		216B48F928A782B60085C572 /* ExtensionSakti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B48EE28A782B60085C572 /* ExtensionSakti.framework */; };
 		216B48FE28A782B60085C572 /* ExtensionSaktiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B48FD28A782B60085C572 /* ExtensionSaktiTests.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2155F9EC28DCAFFC009AC9FB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		216B48EE28A782B60085C572 /* ExtensionSakti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensionSakti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		216B48F128A782B60085C572 /* ExtensionSakti.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionSakti.h; sourceTree = "<group>"; };
 		216B48F228A782B60085C572 /* ExtensionSakti.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ExtensionSakti.docc; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				216B492828A79D810085C572 /* Array.swift */,
 				216B492A28A79D9F0085C572 /* String.swift */,
 				216B492E28A79DD10085C572 /* UILabel.swift */,
+				2155F9EC28DCAFFC009AC9FB /* UIButton.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2155F9ED28DCAFFC009AC9FB /* UIButton.swift in Sources */,
 				216B492928A79D810085C572 /* Array.swift in Sources */,
 				216B492B28A79D9F0085C572 /* String.swift in Sources */,
 				216B492F28A79DD10085C572 /* UILabel.swift in Sources */,
