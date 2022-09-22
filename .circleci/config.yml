@@ -27,6 +27,15 @@ jobs:
       # - store_artifacts:
          # path: test_output
          # destination: scan-output
+  
+  test:
+    macos:
+      xcode: 14.0.1
+
+    steps:
+      - run: set -o pipefail && xcodebuild -workspace Stencil.xcworkspace -scheme Stencil test | tee $CIRCLE_ARTIFACTS/xcode_raw_ios.log | xcpretty -c
+      - run: pod lib lint
+
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -34,4 +43,5 @@ workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
+      - test
       - build
