@@ -8,7 +8,8 @@
 import Foundation
 import UIKit
 
-@objc extension UILabel {
+@objc
+public extension UILabel {
     func textDropShadow() {
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowRadius = 3.0

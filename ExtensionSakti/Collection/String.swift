@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension String {
+public extension String {
     
     func contains(find: String) -> Bool{
         return self.range(of: find) != nil
