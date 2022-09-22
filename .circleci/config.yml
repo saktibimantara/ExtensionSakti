@@ -34,7 +34,6 @@ jobs:
           path: output
       - store_test_results:
           path: output/scan
-
   deploy-to-cocoapods:
     macos:
       xcode: 14.0.1 
