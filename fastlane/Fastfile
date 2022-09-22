@@ -1,0 +1,8 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run the Unit Test"
+  lane :custom_lane do
+    run_tests(scheme: "ExtensionSaktiTests")
+  end
+end
