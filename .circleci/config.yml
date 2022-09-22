@@ -50,7 +50,7 @@ workflows:
             tags:
               only: /.*/
             branches:
-              only: master
+              ignore: /.*/
       - deploy-to-cocoapods:
           requires:
             - build-and-test
