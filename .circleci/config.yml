@@ -33,7 +33,7 @@ jobs:
       xcode: 14.0.1
 
     steps:
-      - run: set -o pipefail && xcodebuild -workspace Stencil.xcworkspace -scheme Stencil test | tee $CIRCLE_ARTIFACTS/xcode_raw_ios.log | xcpretty -c
+      - run: set -o pipefail && xcodebuild -workspace ExtensionSakti.xcworkspace -scheme ExtensionSakti test | tee $CIRCLE_ARTIFACTS/xcode_raw_ios.log | xcpretty -c
       - run: pod lib lint
 
 
